@@ -3,6 +3,9 @@
 ## Description
 This Pomodoro Timer is a productivity app designed to help users implement the Pomodoro Technique for time management. The app cycles through predetermined work and break periods, promoting focus and rest in a balanced manner. Featuring a sleek and user-friendly interface, users can easily track their work sessions and break times with visual and textual cues.
 
+![image](https://github.com/engelhardt-ana/Pomodoro-Clock/assets/84565524/cb1cdc4f-f550-42f1-81d6-91d30ab612bf)
+
+
 ## Features
 - **Customizable Timer**: Set your preferred work and break intervals to suit your productivity style.
 - **Automatic Session Cycling**: After a work session ends, the app automatically starts the break timer, and vice versa.
@@ -10,6 +13,9 @@ This Pomodoro Timer is a productivity app designed to help users implement the P
 - **Dynamic Backgrounds**: Background images with a subtle blur effect change between work and break sessions, providing a refreshing visual context.
 - **Responsive Design**: Works on various devices, adapting to different screen sizes for desktop and mobile use.
 - **Pause/Resume Capability**: Users can pause the timer if needed and resume where they left off.
+
+  ![image](https://github.com/engelhardt-ana/Pomodoro-Clock/assets/84565524/7ac3e365-e513-494b-9e81-374808e48603)
+
 
 ## Technologies Used
 - HTML
