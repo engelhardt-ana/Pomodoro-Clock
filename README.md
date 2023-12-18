@@ -22,6 +22,9 @@ This Pomodoro Timer is a productivity app designed to help users implement the P
 - HTML
 - CSS (with CSS variables for themes and blur effects)
 - JavaScript (for timer logic and DOM manipulations)
+  
+![break](https://github.com/engelhardt-ana/Pomodoro-Clock/assets/84565524/87e13f68-c42a-43ce-ac2c-f22cc6a567c4)
+
 
 ## Setup
 To run this project locally:
