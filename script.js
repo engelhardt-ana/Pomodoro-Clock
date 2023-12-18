@@ -20,6 +20,22 @@ function updateDisplay(minutes, seconds) {
     secondsDisplay.textContent = String(seconds).padStart(2, '0');
 }
 
+function preloadImages(...images) {
+    images.forEach((image) => {
+        const img = new Image(); // Creates a new HTMLImageElement instance
+        img.src = image;         // Sets the source path which starts loading the image
+    });
+}
+
+// Call this function with the paths to your images
+preloadImages(
+    'work_background_1.jpg',
+    'work_background_2.jpg',
+    'break_background_1.jpg',
+    'break_background_2.jpg'
+);
+
+
 function updateBackground() {
     // Clear previous background classes
     document.body.classList.remove('work-time-1', 'work-time-2', 'break-time-1', 'break-time-2');
@@ -102,4 +118,13 @@ resetButton.addEventListener('click', (event) => {
 });
 
 
-window.onload = resetTimer;
+window.onload = function () {
+    preloadImages(
+        'work_background_1.jpg',
+        'work_background_2.jpg',
+        'break_background_1.jpg',
+        'break_background_2.jpg'
+    );
+
+    resetTimer();
+};
